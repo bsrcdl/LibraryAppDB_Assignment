@@ -1,4 +1,3 @@
-package com.library.runner;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -15,12 +14,8 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features" ,
         glue = "com/library/steps",
         dryRun = false,
-        tags = "@wip"
+        tags = "@us03"
 )
 public class CukesRunner {
 
 }
-
-
-
-
